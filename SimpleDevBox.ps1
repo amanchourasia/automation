@@ -18,7 +18,7 @@ Write-Host "IE Enhanced Security Configuration (ESC) has been disabled." -Foregr
 }
 Disable-IEESC
 
-cd c://; mkdir automation; cd automation; git clone https://rimilia@dev.azure.com/rimilia/Alloc8/_git/automation-vm; Copy-Item -Path C:\automation\automation-vm\Certs -Destination C:\
+cd c://; mkdir automation; cd automation; git clone https://username:password@github.com/amanchourasia/automation.git; Copy-Item -Path C:\automation\automation-vm\Certs -Destination C:\
 # cd c://
 # mkdir automation
 # cd automation
